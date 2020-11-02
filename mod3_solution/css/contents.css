@@ -1,3 +1,87 @@
 body{
-	background-color: beige;
+  background-color: #ffffff;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+/*navbar header */
+#top {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px solid #000000;
+}
+
+/* brand - display desktop */
+.navbar-brand{
+  font-size: 2em;
+  color: #000000;
+  padding-left: 50px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand:hover{
+	color: #000000;
+}
+
+/* button nav-toggle - display mobile */
+#nav-list {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar-toggle{
+	border: 2px solid #000000;
+  margin-right: 25px;
+}
+.navbar-toggle:focus{
+	border: 2px solid gainsboro;
+  margin-right: 25px;
+}
+.icon-bar{
+  background-color: #000000;
+}
+
+/* Our menu title */
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000000;
+  font-size: 35px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+/* section CSS */
+.row{
+  margin: 30px;
+}
+.content-element{
+  width: auto;
+	height: auto;
+  background-color: gray;
+  padding: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.item{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content-element p{
+  font-weight: bold;
 }
