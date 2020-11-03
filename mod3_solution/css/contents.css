@@ -3,8 +3,8 @@ body{
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .container-fluid{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*navbar header */
@@ -20,12 +20,9 @@ body{
   color: #000000;
   padding-left: 50px;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
 }
 .navbar-brand:hover{
-	color: #000000;
+  color: #000000;
 }
 
 /* button nav-toggle - display mobile */
@@ -36,12 +33,12 @@ body{
   padding: 0;
 }
 .navbar-toggle{
-	border: 2px solid #000000;
-  margin-right: 25px;
+  border: 2px solid #000000;
+    margin-right: 25px;
 }
 .navbar-toggle:focus{
-	border: 2px solid gainsboro;
-  margin-right: 25px;
+  border: 2px solid gainsboro;
+    margin-right: 25px;
 }
 .icon-bar{
   background-color: #000000;
@@ -57,22 +54,23 @@ body{
   font-weight: bold;
 }
 .menu-item{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	background-color: white;
-	border-bottom: 1px solid black;
-	color: black;
-	display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
 }
 
 /* section CSS */
 .row{
-  margin: 30px;
+  margin: 20px;
 }
 .content-element{
+  margin: 20px;
   width: auto;
-	height: auto;
+  height: auto;
   background-color: gray;
   padding: 20px;
   font-family: "Comic Sans MS", cursive, sans-serif;
